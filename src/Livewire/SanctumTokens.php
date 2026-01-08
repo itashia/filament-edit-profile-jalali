@@ -76,7 +76,7 @@ class SanctumTokens extends BaseProfileForm implements HasTable
                             ->columns(2)
                             ->required(),
                         DatePicker::make('expires_at')
-                            ->jalaliDate()
+                            ->jalali()
                             ->label(__('filament-edit-profile::default.token_expires_at')),
                     ])
                     ->action(function ($data) {
