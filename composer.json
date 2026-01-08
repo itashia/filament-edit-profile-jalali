@@ -24,7 +24,7 @@
         "filament/filament": "^4.0",
         "jenssegers/agent": "^2.6",
         "spatie/laravel-package-tools": "^1.15.0",
-        "ariaieboy/filament-jalali": "^2.2",
+        "ariaieboy/filament-jalali": "^2.2"
     },
     "require-dev": {
         "laradumps/laradumps": "^3.1",
