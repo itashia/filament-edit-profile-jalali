@@ -1,21 +1,21 @@
 {
-    "name": "joaopaulolndev/filament-edit-profile",
-    "description": "Filament package to edit profile",
+    "name": "itashia/filament-edit-profile-jalali",
+    "description": "Filament package to edit profile jalali",
     "keywords": [
-        "joaopaulolndev",
+        "itashia",
         "laravel",
         "filament-edit-profile"
     ],
-    "homepage": "https://github.com/joaopaulolndev/filament-edit-profile",
+    "homepage": "https://github.com/itashia/filament-edit-profile-jalali",
     "support": {
-        "issues": "https://github.com/joaopaulolndev/filament-edit-profile/issues",
-        "source": "https://github.com/joaopaulolndev/filament-edit-profile"
+        "issues": "https://github.com/itashia/filament-edit-profile-jalali/issues",
+        "source": "https://github.com/itashia/filament-edit-profile-jalali"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "João Paulo Leite Nascimento",
-            "email": "joaopauloln7@gmail.com",
+            "name": "ArshiaMohammadei",
+            "email": "itarrshia@gmail.com",
             "role": "Developer"
         }
     ],
@@ -23,7 +23,8 @@
         "php": "^8.2",
         "filament/filament": "^4.0",
         "jenssegers/agent": "^2.6",
-        "spatie/laravel-package-tools": "^1.15.0"
+        "spatie/laravel-package-tools": "^1.15.0",
+        "ariaieboy/filament-jalali": "^2.2",
     },
     "require-dev": {
         "laradumps/laradumps": "^3.1",
