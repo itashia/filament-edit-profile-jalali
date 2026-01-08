@@ -196,7 +196,7 @@ class CustomFieldsForm extends BaseProfileForm
             ->prefixIcon($field['prefix_icon'] ?? null)
             ->default($field['default'] ?? null)
             ->rules($field['rules'] ?? [])
-            ->jalaliDate()
+            ->jalali()
             ->format($field['format'] ?? 'Y-m-d H:i:s')
             ->time($field['time'] ?? true)
             ->native($field['native'] ?? true)
