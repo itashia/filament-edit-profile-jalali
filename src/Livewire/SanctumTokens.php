@@ -49,11 +49,13 @@ class SanctumTokens extends BaseProfileForm implements HasTable
                     ->label(__('filament-edit-profile::default.token_name')),
                 TextColumn::make('created_at')
                     ->date()
+                    ->jalaliDate()
                     ->label(__('filament-edit-profile::default.token_created_at'))
                     ->sortable(),
                 TextColumn::make('expires_at')
                     ->color(fn ($record) => now()->gt($record->expires_at) ? 'danger' : null)
                     ->date()
+                    ->jalaliDate()
                     ->label(__('filament-edit-profile::default.token_expires_at'))
                     ->sortable(),
             ])
@@ -74,6 +76,7 @@ class SanctumTokens extends BaseProfileForm implements HasTable
                             ->columns(2)
                             ->required(),
                         DatePicker::make('expires_at')
+                            ->jalaliDate()
                             ->label(__('filament-edit-profile::default.token_expires_at')),
                     ])
                     ->action(function ($data) {
